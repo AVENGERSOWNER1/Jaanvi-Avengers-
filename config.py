@@ -35,7 +35,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/ignore528/Jaanvimusic",
+    "https://github.com/AVENGERSOWNER1/Jaanvi-Avengers-",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
@@ -92,10 +92,10 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://files.catbox.moe/7lr02w.jpg"
+    "START_IMG_URL", "https://files.catbox.moe/pbguo7.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://files.catbox.moe/7lr02w.jpg"
+    "PING_IMG_URL", "https://files.catbox.moe/pbguo7.jpg"
 )
 PLAYLIST_IMG_URL = "https://telegra.ph/file/b61227af05544deb76a34.jpg"
 STATS_IMG_URL = "https://telegra.ph/file/b61227af05544deb76a34.jpg"
