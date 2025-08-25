@@ -22,7 +22,7 @@ PRIVATE_BOT_MODE = getenv("PRIVATE_BOT_MODE", None)
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 900))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", -1002488365579))
+LOGGER_ID = int(getenv("LOGGER_ID", None))
 
 # Get this value from @BRANDRD_ROBOT on Telegram by /id
 OWNER_ID = int(getenv("OWNER_ID", "7096580515"))
@@ -43,7 +43,7 @@ GIT_TOKEN = getenv(
 )  # Fill this variable if your upstream repository is private
 
 API_URL = getenv("API_URL", 'https://api.thequickearn.xyz') #youtube song url
-API_KEY = getenv("API_KEY", '30DxNexGenBotsd941c4') # youtube song api ke
+API_KEY = getenv("API_KEY", 'NxGBNexGenBots901703') # youtube song api ke
 
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Ignore_network")
 SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+-96WqPJaW6wyZGZl")
